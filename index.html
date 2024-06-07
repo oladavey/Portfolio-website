@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>oladavid</title>
+</head>
+<body>
+    <div class="grid-2">
+        <div class="section-1">
+            <img src="david.jpg" alt="Profile Picture" class="profile-pic">
+            <h2>David Ola</h2>
+            <p>Bauchi, Nigeria.</p>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-github"></i></a>
+        </div>
+        <div class="section-2">
+            <h2>About</h2>
+            <p> Hello! I'm Ola David, a passionate 20-year-old studying Mechatronics and Systems Engineering at Abubakar Tafewa Balewa University, Nigeria. Specializing in data analysis, machine learning, and AI, I'm enthusiastic about leveraging technology to solve complex engineering challenges.</p>
+     
+            <h2>Experience</h2>
+            <p>Throughout my studies in Mechatronics and Systems Engineering at Abubakar Tafewa Balewa University, I've engaged in diverse projects focusing on data analysis, systems design, and AI/ML. These experiences have strengthened my programming skills and ability to collaborate effectively within interdisciplinary teams.</p>
+
+            <h2>Skills</h2>
+          <p> 
+          <p>I have a strong foundation in:</p>
+
+<ul>
+  <li>Data Analysis</li>
+  <li>Algorithms and Data Structures</li>
+  <li>Machine Learning & AI</li>
+  <li>Python Programming</li>
+  <li>Data Visualization</li>
+</ul>
+
+<p>I'm also developing skills in:</p>
+
+<ul>
+  <li>Advanced Data Visualization Tools</li>
+  <li>Statistical Analysis</li>
+  <li>Database Management</li>
+</ul>
+</p>
+            
+            <h2>Contact</h2>
+            <p>oladavid151@gmail.com</p>
+        </div>
+    </div>
+</body>
+</html>
+<ALOASK-SEPARATE-EDITORS>/* global */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+.grid-2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #101214;
+    color: #7A7C80;
+
+}
+
+.profile-pic {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2,.white{
+    color: #fff;
+}
+
+a{
+    color: #7A7C80;
+    text-decoration: none;
+}
+/* section 1 */
+.section-1{
+    padding-top: 20vh;
+    text-align: center;
+}
+
+.section-1 p{
+    font-size: 1.1rem;
+    padding-bottom: 10px;
+    margin:0;
+}
+
+.section-1 h2{
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+}
+
+.section-1 a{
+    font-size: 1.5rem;
+    padding: 10px;
+}
+/* section 2 */
+.section-2{
+    padding-top: 10vh;
+    width: 70%;
+}
+
+.section-2 h2{
+    font-size: 1.7rem;
+    margin-bottom: 10px;
+}
+
+.section-2 p{
+    font-size: 1.1rem;
+    padding-bottom: 10px;
+    margin:0;
+}
+
+.section-2 a{
+    display: block;
+    padding: 5px;
+    font-size: 1.2rem;
+    padding-left: 0;
+    width: 100px;
+}
+/* animations / utilities */
+.section-2 a:hover{
+    font-size: 1.3rem;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.section-1 a:hover{
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.white:hover{
+    position: relative;
+    padding-left: 10px;
+}
+
+/* media queres */
+@media(max-width:780px){
+    .grid-2{
+        grid-template-columns: 1fr;
+    }
+    .section-1{
+        padding:0;
+        padding-top: 5rem;
+    }
+    .section-2{
+        padding: 0;
+        padding-left: 1.5rem;
+        padding-top: 2rem;
+    }
+}
+<ALOASK-SEPARATE-EDITORS>
